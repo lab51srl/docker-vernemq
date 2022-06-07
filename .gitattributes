@@ -1,4 +1,7 @@
 # normalize all introduced text files to LF line endings (recognized by git)
-*           text=auto
+# *           text=auto
 # additionally declare text file types
-*.sh        text eol=lf
+# *.sh        text eol=lf
+
+# Actually, only .sh files doesn't seems to be enought, the main software works but healthcheck doesn't
+*        text eol=lf
